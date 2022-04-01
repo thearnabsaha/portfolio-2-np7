@@ -24,3 +24,85 @@ body{
     line-height: 1.7;
     background-image: url(../public/assets/bg-texture.png);
 }
+//? ################################## Header Styling #####################################################
+#header{
+    .container{
+        margin: auto;
+        width: 95vw;
+        margin-top: 7rem;
+        h5{
+            text-align: center;
+            font-size: 1.8rem;
+        }
+        h1{
+            text-align: center;
+            font-size: 3rem;
+        }
+        h6{
+            text-align: center;
+            font-size: 1.5rem;
+            color: $color-light;
+        }
+        .cta{
+            text-align: center;
+            margin-top: 3rem;
+            a{
+                font-size: 1.8rem;
+                color: $color-primary;
+                border: 1px solid $color-primary;
+                border-radius: .3rem;
+                text-decoration: none;
+                padding: 1rem 2rem;
+                transition: all .4s ease-in-out;
+                &:hover{
+                    background-color: $color-white;
+                    color: $color-bg;
+                    border: 1px solid $color-white;
+
+                }
+            }
+            .btn2{
+                background-color: $color-primary;
+                color: $color-bg;
+                margin-left: 3rem;
+            }
+        }
+        .main{
+            display: flex;
+            justify-content: space-between;
+            .dp{
+                background: linear-gradient($color-primary, transparent);
+                padding: 5rem;
+                border-radius: 30rem 30rem 0 0;
+                margin-top: 7rem;
+            }
+            .socials{
+                margin-top: 36rem;
+                margin-left: 9rem;
+                a{
+                    font-size: 3rem;
+                    color: $color-primary;
+                    .icon{
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 3rem;
+                    }
+                }
+                .line{
+                    background-color: $color-primary;
+                    height: 6rem;
+                    width: 1px;
+                    margin-left: .75rem;
+                }
+            }
+            .scroll{
+                p{
+                    font-size: 1.5rem;
+                    color: $color-primary;
+                    transform: rotate(90deg);
+                    margin-top: 46rem;
+                }
+            }
+        }
+    }
+}
