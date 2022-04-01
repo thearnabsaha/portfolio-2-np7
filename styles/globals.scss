@@ -87,6 +87,9 @@ body{
                         flex-direction: column;
                         margin-bottom: 3rem;
                     }
+                    &:hover{
+                        color: $color-white;
+                    }
                 }
                 .line{
                     background-color: $color-primary;
