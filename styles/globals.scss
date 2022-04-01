@@ -53,7 +53,7 @@ body{
                 border-radius: .3rem;
                 text-decoration: none;
                 padding: 1rem 2rem;
-                transition: all .4s ease-in-out;
+                transition: all .5s ease-in-out;
                 &:hover{
                     background-color: $color-white;
                     color: $color-bg;
@@ -113,15 +113,43 @@ body{
 //? ################################## About Styling #####################################################
 #about{
     .container{
+        margin: auto;
+        width: 60vw;
         margin-top: 5rem;
         h5{
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             text-align: center;
+            color: $color-light;
         }
         h1{
             font-size: 2.5rem;
             color: $color-primary;
             text-align: center;
+        }
+        .box{
+            display: flex;
+            .left{
+                background: linear-gradient(45deg,transparent,$color-primary,transparent);
+                // padding: 10rem;
+                // margin: 10rem;
+                // width: 100%;
+                // height: 100%;
+                border-radius: 3rem;
+                .img{
+                    border-radius: 3rem;
+                    // transform: rotate(10deg);
+                    // transform: translate(10rem,10rem);
+                    transition: all ease-in-out .4s;
+                    overflow: hidden;
+
+                    &:hover{
+                        // transform: rotate(0);
+                    }
+                }
+            }
+            h4{
+
+            }
         }
     }
 }
