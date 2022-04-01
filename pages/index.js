@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from '../Components/About';
 import Contact from '../Components/Contact';
 import Experience from '../Components/Experience';
 import Footer from '../Components/Footer';
@@ -15,6 +16,7 @@ const index = () => {
       </Head>
       <Header/>
       <Navbar/>
+      <About/>
       <Experience/>
       <Services/>
       <Portfolio/>
