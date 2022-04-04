@@ -11,7 +11,7 @@ const About = () => {
                     <h1>About Me</h1>
                     <div className="box">
                         <div className="left">
-                        <Image src={DPA} width="450" height="450" objectFit='cover' alt='arnabs image' className="img"/>
+                        <Image src={DPA} width="400" height="400" objectFit='cover' alt='arnabs image' className="img"/>
                         </div>
                         <div className="right">
                             <div className="cards">

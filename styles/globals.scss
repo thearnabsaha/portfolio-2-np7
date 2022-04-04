@@ -134,13 +134,6 @@ body{
             .left{
                 background: linear-gradient(45deg,transparent,$color-primary,transparent);
                 border-radius: 3rem;
-                .img{
-                    border-radius: 3rem;
-                    transition: all ease-in-out .4s;
-                    &:hover{
-                        
-                    }
-                }
             }
             .right{
                 margin-left: 5rem;
