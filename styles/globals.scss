@@ -114,7 +114,7 @@ body{
 #about{
     .container{
         margin: auto;
-        width: 70vw;
+        width: 65vw;
         margin-top: 5rem;
         h5{
             font-size: 1.5rem;
@@ -172,10 +172,20 @@ body{
                         }
                     }
                 }
-                p{
+                h6{
                     color: $color-light;
                     font-size: 1.5rem;
                     margin-top: 3rem;
+                    margin-left: 2rem;
+                    padding-right: 10rem;
+                    margin-bottom: 2rem;
+                }
+                a{
+                    color: $color-bg;
+                    background-color: $color-primary;
+                    font-size: 1.8rem;
+                    text-decoration: none;
+                    padding: 1rem;
                     margin-left: 2rem;
                 }
             }

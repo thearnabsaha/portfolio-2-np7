@@ -31,7 +31,7 @@ const About = () => {
                                     <h4>80+ Completed</h4>
                                 </div>
                             </div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente vero, aliquam error veritatis ducimus nisi, enim mollitia quaerat aspernatur praesentium nobis ab! Iste, voluptatum? Minus laboriosam possimus dolorem ab necessitatibus.</p>
+                            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente vero, aliquam error veritatis ducimus nisi, enim mollitia quaerat aspernatur praesentium nobis ab! Iste, voluptatum? Minus laboriosam possimus dolorem ab necessitatibus.</h6>
                             <a href="">Let's Talk</a>
                         </div>
                     </div>
