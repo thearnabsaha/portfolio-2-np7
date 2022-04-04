@@ -140,8 +140,31 @@ body{
                     }
                 }
             }
-            h4{
-
+            .right{
+                margin-left: 5rem;
+                .cards{
+                    display: flex;
+                    .card{
+                        background-color: $color-bg-variant;
+                        border: 1px solid $color-bg-variant;
+                        border-radius: 2rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 3rem;
+                        p{
+                            font-size: 1.8rem;
+                        }
+                        h4{
+                            font-size: 1.2rem;
+                            color: $color-light;
+                        }
+                        .icon{
+                            font-size: 2rem;
+                        }
+                    }
+                }
             }
         }
     }
