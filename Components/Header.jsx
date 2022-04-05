@@ -1,5 +1,5 @@
 import {BsGithub,BsLinkedin} from "react-icons/bs";
-import CV from '../public/cv.pdf'
+// import CV from '../public/cv.pdf'
 import DP from '../public/assets/me.png'
 import Image from 'next/image';
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
                     <h1>Arnab Saha</h1>
                     <h6>Fullstack Developer & Blockchain Developer</h6>
                     <div className="cta">
-                        <a href={CV} download target="_blank">Download CV</a>
+                        <a href={DP} download target="_blank">Download CV</a>
                         <a href="#contact" className="btn2">Let's Talk</a>
                     </div>
                     <div className="main">
