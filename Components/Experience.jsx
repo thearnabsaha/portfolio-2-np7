@@ -1,3 +1,5 @@
+import { AiOutlineCheck } from "react-icons/ai";
+
 const Experience = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const Experience = () => {
                             <div className="smBox">
                                 <div className="contentContainer">
                                     <div className="content">
-                                        <h1>HTML</h1>
+                                        <h1> <AiOutlineCheck className="icon"/> HTML</h1>
                                         <p>experienced</p>
                                     </div>
                                 </div>
