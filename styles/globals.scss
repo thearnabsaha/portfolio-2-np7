@@ -201,7 +201,6 @@ body{
 //? ################################## Experience Styling #####################################################
 #experience{
     .container{
-        // display: flex;
         margin-top: 10rem;
         h6{
             font-size: 1.5rem;
@@ -216,10 +215,52 @@ body{
         .bigBox{
             display: flex;
             margin-top: 5rem;
+            justify-content: space-around;
             .box{
+                // border: 1px red solid;
+                border-radius: 2rem;
+
                 background-color: $color-bg-variant;
+                h4{
+                    font-size: 2rem;
+                    color: $color-primary;
+                    padding: 3rem;
+                }
                 .box1{
                     display: flex;
+                    justify-content: space-around;
+                    padding-bottom: 3rem;
+                    .icon{
+                        font-size: 1.3rem;
+                    }
+                    .right{
+                        .box2{
+                            display: flex;
+                            .content{
+                                h3{
+                                    font-size: 1.5rem;
+                                }
+                                p{
+                                    font-size: 1.2rem;
+                                    color: $color-light;
+                                }
+                            }
+                        }
+                    }
+                    .left{
+                        .box2{
+                            display: flex;
+                            .content{
+                                h3{
+                                    font-size: 1.5rem;
+                                }
+                                p{
+                                    font-size: 1.2rem;
+                                    color: $color-light;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
