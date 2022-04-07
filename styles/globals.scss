@@ -202,6 +202,8 @@ body{
 #experience{
     .container{
         margin-top: 10rem;
+        margin-right: 15rem;
+        margin-left: 15rem;
         h6{
             font-size: 1.5rem;
             color: $color-light;
@@ -217,10 +219,10 @@ body{
             margin-top: 5rem;
             justify-content: space-around;
             .box{
-                // border: 1px red solid;
                 border-radius: 2rem;
-
                 background-color: $color-bg-variant;
+                width: 35vw;
+                height: 40vh;
                 h4{
                     font-size: 2rem;
                     color: $color-primary;
@@ -232,6 +234,7 @@ body{
                     padding-bottom: 3rem;
                     .icon{
                         font-size: 1.3rem;
+                        transform: translate(-20px,7px);
                     }
                     .right{
                         .box2{
@@ -243,6 +246,7 @@ body{
                                 p{
                                     font-size: 1.2rem;
                                     color: $color-light;
+                                    margin-bottom: 1.5rem;
                                 }
                             }
                         }
@@ -257,6 +261,7 @@ body{
                                 p{
                                     font-size: 1.2rem;
                                     color: $color-light;
+                                    margin-bottom: 1.5rem;
                                 }
                             }
                         }
