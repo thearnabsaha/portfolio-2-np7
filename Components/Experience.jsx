@@ -10,35 +10,6 @@ const Experience = () => {
                             <h2>Frontend Development</h2>
                             <div className="smBox">
                                 <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
                                     <div className="content">
                                         <h1>HTML</h1>
                                         <p>experienced</p>
@@ -50,49 +21,6 @@ const Experience = () => {
                         <h2>Frontend Development</h2>
                             <div className="smBox">
                                 <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
-                                    <div className="content">
-                                        <h1>HTML</h1>
-                                        <p>experienced</p>
-                                    </div>
-                                </div>
-                                <div className="contentContainer">
-                                    <h5>%</h5>
                                     <div className="content">
                                         <h1>HTML</h1>
                                         <p>experienced</p>

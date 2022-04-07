@@ -216,19 +216,21 @@ body{
                 }
                 .smBox{
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: space-around;
                     flex-wrap: wrap;
-                    width: 25vw;
+                    width: 27vw;
+                    padding-top: 3rem;
                     .contentContainer{
-                        h5{
-                            font-size: 3rem;
-                        }
+                        width: 10vw;
+                        display: flex;
+                        padding-bottom: 3rem;
                         .content{
                             h1{
                                 font-size: 1.5rem;
                             }
                             p{
                                 font-size: 1.5rem;
+                                color: $color-light;
                             }
                         }
                     }
