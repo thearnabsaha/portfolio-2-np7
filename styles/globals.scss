@@ -201,6 +201,7 @@ body{
 //? ################################## Experience Styling #####################################################
 #experience{
     .container{
+        // display: flex;
         margin-top: 10rem;
         h6{
             font-size: 1.5rem;
@@ -212,8 +213,15 @@ body{
             color: $color-primary;
             text-align: center;
         }
-        .box{
-            background-color: $color-bg-variant;
+        .bigBox{
+            display: flex;
+            margin-top: 5rem;
+            .box{
+                background-color: $color-bg-variant;
+                .box1{
+                    display: flex;
+                }
+            }
         }
     }
 }
