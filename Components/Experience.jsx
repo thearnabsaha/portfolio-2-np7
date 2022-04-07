@@ -9,42 +9,7 @@ const Experience = () => {
                         <div className="left">
                             <h2>Frontend Development</h2>
                             <div className="smBox">
-                                <h2>%</h2>
-                                <div className="content">
-                                    <h1>HTML</h1>
-                                    <p>experienced</p>
-                                </div>
-                            </div>
-                            <div className="smBox">
-                                <h2>%</h2>
-                                <div className="content">
-                                    <h1>HTML</h1>
-                                    <p>experienced</p>
-                                </div>
-                            </div>
-                            <div className="smBox">
-                                <h2>%</h2>
-                                <div className="content">
-                                    <h1>HTML</h1>
-                                    <p>experienced</p>
-                                </div>
-                            </div>
-                            <div className="smBox">
-                                <h2>%</h2>
-                                <div className="content">
-                                    <h1>HTML</h1>
-                                    <p>experienced</p>
-                                </div>
-                            </div>
-                            <div className="smBox">
-                                <h2>%</h2>
-                                <div className="content">
-                                    <h1>HTML</h1>
-                                    <p>experienced</p>
-                                </div>
-                            </div>
-                            <div className="smBox">
-                                <h2>%</h2>
+                                <h5>%</h5>
                                 <div className="content">
                                     <h1>HTML</h1>
                                     <p>experienced</p>
@@ -54,7 +19,7 @@ const Experience = () => {
                         <div className="right">
                         <h2>Frontend Development</h2>
                             <div className="smBox">
-                                <h2>%</h2>
+                                <h5>%</h5>
                                 <div className="content">
                                     <h1>HTML</h1>
                                     <p>experienced</p>
