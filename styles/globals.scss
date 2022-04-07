@@ -202,6 +202,8 @@ body{
 #experience{
     .container{
         margin-top: 10rem;
+        margin-right: 15rem;
+        margin-left: 15rem;
         h6{
             font-size: 1.5rem;
             color: $color-light;
@@ -225,6 +227,7 @@ body{
                     font-size: 2rem;
                     color: $color-primary;
                     padding: 3rem;
+                    text-align: center;
                 }
                 .box1{
                     display: flex;
