@@ -187,6 +187,8 @@ body{
                     border-radius: .4rem;
                     border: 1px solid $color-primary;
                     transition: all ease-in-out .4s;
+                    display: inline-block;
+                    margin-top: .5rem;
                     &:hover{
                         color:$color-primary;
                         background:transparent;
@@ -197,3 +199,19 @@ body{
     }
 }
 //? ################################## Experience Styling #####################################################
+#experience{
+    .container{
+        h4{
+            font-size: 1.8rem;
+            text-align: center;
+            color: $color-light;
+            margin-top: 8rem;
+        }
+        h3{
+            font-size: 2.5rem;
+            margin-top: 1rem;
+            text-align: center;
+            color: $color-primary;
+        }
+    }
+}

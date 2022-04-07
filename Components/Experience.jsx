@@ -4,7 +4,7 @@ const Experience = () => {
             <div id="experience">
                 <div className="container">
                     <h4>What Skills I Have</h4>
-                    <p>My Experience</p>
+                    <h3>My Experience</h3>
                     <div className="box">
                         <div className="left">
                             <h2>Frontend Development</h2>
