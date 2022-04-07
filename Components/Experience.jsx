@@ -13,7 +13,73 @@ const Experience = () => {
                             <div className="smBox">
                                 <div className="contentContainer">
                                     <div className="content">
-                                        <h1> <AiOutlineCheck className="icon"/> HTML</h1>
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
+                                        <p>experienced</p>
+                                    </div>
+                                </div>
+                                <div className="contentContainer">
+                                    <div className="content">
+                                    <div className="head">
+                                        <AiOutlineCheck className="icon"/>
+                                        <h1>HTML</h1>
+                                    </div>
                                         <p>experienced</p>
                                     </div>
                                 </div>
