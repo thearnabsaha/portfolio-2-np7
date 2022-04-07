@@ -223,6 +223,11 @@ body{
                 background-color: $color-bg-variant;
                 width: 35vw;
                 height: 40vh;
+                border: 5px solid $color-bg-variant;
+                transition: all ease-in-out .4s;
+                &:hover{
+                    background-color: transparent;
+                }
                 h4{
                     font-size: 2rem;
                     color: $color-primary;
