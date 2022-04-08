@@ -9,22 +9,38 @@ import PF from "../public/assets/portfolio6.jpg"
 export const send = [
     {
         id: 1,
-        title: "Sign in",
-        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, Etquia quis?Lorem ipsum, Etquia quis?",
-        icon:"DPA",
+        title: "Crypto Currency Dashboard & Financial Visualization",
+        github: "https://github.com/thearnabsaha/web3.github.io",
+        demo:"https://tasmeal-github-io.vercel.app/",
     },
     {
         id: 2,
-        title: "Add your bank Account",
-        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
-        icon:"MdAttachMoney",
-
+        title: "Crypto Currency Dashboard & Financial Visualization",
+        github: "https://github.com/thearnabsaha/web3.github.io",
+        demo:"https://tasmeal-github-io.vercel.app/",
     },
     {
         id: 3,
-        title: "Send payment request",
-        desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Etquia quis?",
-        icon:"MdOutlineScreenShare",
-
+        title: "Crypto Currency Dashboard & Financial Visualization",
+        github: "https://github.com/thearnabsaha/web3.github.io",
+        demo:"https://tasmeal-github-io.vercel.app/",
+    },
+    {
+        id: 4,
+        title: "Crypto Currency Dashboard & Financial Visualization",
+        github: "https://github.com/thearnabsaha/web3.github.io",
+        demo:"https://tasmeal-github-io.vercel.app/",
+    },
+    {
+        id: 5,
+        title: "Crypto Currency Dashboard & Financial Visualization",
+        github: "https://github.com/thearnabsaha/web3.github.io",
+        demo:"https://tasmeal-github-io.vercel.app/",
+    },
+    {
+        id: 6,
+        title: "Crypto Currency Dashboard & Financial Visualization",
+        github: "https://github.com/thearnabsaha/web3.github.io",
+        demo:"https://tasmeal-github-io.vercel.app/",
     },
 ];
