@@ -1,13 +1,5 @@
 import Image from 'next/image';
-import DPA from '../public/assets/me-about.jpg'
 import { send } from "../api/portfolios";
-import PA from "../public/assets/portfolio1.jpg"
-import PB from "../public/assets/portfolio2.jpg"
-import PC from "../public/assets/portfolio3.jpg"
-import PD from "../public/assets/portfolio4.jpg"
-import PE from "../public/assets/portfolio5.png"
-import PF from "../public/assets/portfolio6.jpg"
-
 const Portfolio = () => {
     return (
         <>
