@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <div id="navbar">
                 <div className="container">
-                    <a href="#"><AiOutlineHome className="icon"/></a>
+                    <a href="#"><AiOutlineHome className="icon active"/></a>
                     <a href="#about"><AiOutlineUser className="icon"/></a>
                     <a href="#experience"><AiOutlineBook className="icon"/></a>
                     <a href="#portfolio"><RiServiceLine className="icon"/></a>

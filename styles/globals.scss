@@ -407,13 +407,17 @@ body{
             padding: 2rem;
             font-size: 6rem;
             color: $color-light;
+            transition: all ease-in-out .4s;
             &:hover{
-                // background-color: #fff;
-                // background-color: rgba(255, 255, 255, 0.595);
                 background-color: $color-bg;
                 color: $color-white;
                 border-radius: 50%;
             }
+        }
+        .active{
+            background-color: $color-bg;
+            color: $color-white;
+            border-radius: 50%;
         }
     }
 }
