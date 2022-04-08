@@ -9,10 +9,22 @@ const Portfolio = () => {
                     <h5>Portfolio</h5>
                     <div className="cards">
                         <div className="card">
-                            <Image src={DPA} width="400" height="400" objectFit='cover' alt='arnabs image' className="img"/>
+                            <Image src={DPA} width="300" height="300" objectFit='cover' alt='arnabs image' className="img"/>
                             <h4>Crypto Currency Dashboard & Financial Visualization</h4>
-                            <a href="" target="_blank">Github</a>
-                            <a href="" target="_blank">Live Demo</a>
+                            <a href="" target="_blank" className='btn1'>Github</a>
+                            <a href="" target="_blank" className='btn2'>Live Demo</a>
+                        </div>
+                        <div className="card">
+                            <Image src={DPA} width="300" height="300" objectFit='cover' alt='arnabs image' className="img"/>
+                            <h4>Crypto Currency Dashboard & Financial Visualization</h4>
+                            <a href="" target="_blank" className='btn1'>Github</a>
+                            <a href="" target="_blank" className='btn2'>Live Demo</a>
+                        </div>
+                        <div className="card">
+                            <Image src={DPA} width="300" height="300" objectFit='cover' alt='arnabs image' className="img"/>
+                            <h4>Crypto Currency Dashboard & Financial Visualization</h4>
+                            <a href="" target="_blank" className='btn1'>Github</a>
+                            <a href="" target="_blank" className='btn2'>Live Demo</a>
                         </div>
                     </div>
                 </div>
