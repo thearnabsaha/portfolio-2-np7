@@ -2,7 +2,6 @@ import Head from 'next/head';
 import About from '../Components/About';
 import Contact from '../Components/Contact';
 import Experience from '../Components/Experience';
-import Footer from '../Components/Footer';
 import Header from '../Components/Header';
 import Navbar from '../Components/Navbar';
 import Portfolio from '../Components/Portfolio';
@@ -22,7 +21,6 @@ const index = () => {
       <Portfolio/>
       <Testionials/>
       <Contact/>
-      <Footer/>
     </>
   );
 }
