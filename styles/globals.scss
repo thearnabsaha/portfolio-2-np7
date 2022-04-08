@@ -395,3 +395,19 @@ body{
     }
 }
 //? ################################## Navbar Styling #####################################################
+#navbar{
+    .container{
+        // background: rgba(0 0 0 0.3);
+        background-color: rgba(0, 0, 0, 0.302);
+        // background: rgba(0, 0, 0, 0.3);
+        // display: inline-block;
+        position: fixed;
+        top: 700px;
+        left: 555px;
+        border-radius: 7rem;
+        .icon{
+            padding: 2rem;
+            font-size: 7rem;
+        }
+    }
+}
