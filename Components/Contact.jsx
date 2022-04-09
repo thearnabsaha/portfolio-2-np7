@@ -10,13 +10,13 @@ const Contact = () => {
                     <div className="box">
                         <div className="left">
                             <div className="box1">
-                                <AiOutlineMail/>
+                                <AiOutlineMail className="icon"/>
                                 <h4>Email</h4>
                                 <h3>dummy@one.com</h3>
                                 <a href="#">Send a message</a>
                             </div>
                             <div className="box1">
-                                <BsWhatsapp/>
+                                <BsWhatsapp className="icon"/>
                                 <h4>WhatsApp</h4>
                                 <h3>+79251805132</h3>
                                 <a href="#">Send a message</a>
