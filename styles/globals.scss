@@ -427,3 +427,59 @@ body{
 //? ################################## Testimonials Styling #####################################################
 
 //? ################################## Contact Styling #####################################################
+#contact{
+    .container{
+        h6{
+            font-size: 1.5rem;
+            color: $color-light;
+            text-align: center;
+            margin-top: 8rem;
+        }
+        h5{
+            font-size: 1.8rem;
+            color: $color-primary;
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+        .box{
+            display: flex;
+            justify-content: space-around;
+            .left{
+                margin-bottom: 20rem;
+                .box1{
+                    background-color: $color-bg-variant;
+                    padding: 2rem;
+                    border-radius: 1rem;
+                    margin-top: 3rem;
+                    border: $color-bg-variant 2px solid;
+                    transition: all ease-in-out .5s;
+                    &:hover{
+                        background-color: transparent;
+                    }
+                    h4{
+                        font-size: 1.8rem;
+                        color: $color-primary;
+                    }
+                    h3{
+                        font-size: 1.3rem;
+                        color: $color-light;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: $color-primary-variant;
+                        font-size: 1.2rem;
+                        margin-top: 1rem;
+                        display: inline-block;
+                        transition: all ease-in-out .4s;
+                        &:hover{
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+            .right{
+                
+            }
+        }
+    }
+}

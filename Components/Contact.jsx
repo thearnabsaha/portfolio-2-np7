@@ -17,7 +17,7 @@ const Contact = () => {
                             </div>
                             <div className="box1">
                                 <BsWhatsapp/>
-                                <h4>WahtsApp</h4>
+                                <h4>WhatsApp</h4>
                                 <h3>+79251805132</h3>
                                 <a href="#">Send a message</a>
                             </div>
@@ -26,7 +26,7 @@ const Contact = () => {
                             <div className="form">
                                 <input type="text" placeholder="Your Name"/>
                                 <input type="text" placeholder="Your Email"/>
-                                <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+                                <textarea placeholder="Your Message"></textarea>
                                 <button type="submit">Submit</button>
                             </div>
                         </div>
