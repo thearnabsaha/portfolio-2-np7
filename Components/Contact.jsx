@@ -23,12 +23,12 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="right">
-                            <div className="form">
+                            <form className="form">
                                 <input type="text" placeholder="Your Name"/>
                                 <input type="text" placeholder="Your Email"/>
                                 <textarea placeholder="Your Message"></textarea>
                                 <button type="submit">Submit</button>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </div>
