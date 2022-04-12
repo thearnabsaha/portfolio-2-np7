@@ -1,49 +1,26 @@
-export const testimonials = [
+export const rec = [
     {
         id: 1,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/thearnabsaha/web3.github.io",
-        demo:"https://tasmeal-github-io.vercel.app/",
-        icon:"/../public/assets/portfolio1.jpg",
+        title: "Arindam saha",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fuga nisi! Iusto suscipit natus dignissimos magni quidem dolor ducimus cumque soluta itaque maxime eius mollitia nisi ad sint, eligendi quisquam.",
+        icon:"/../public/assets/avatar1.jpg",
     },
     {
         id: 2,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/thearnabsaha/web3.github.io",
-        demo:"https://tasmeal-github-io.vercel.app/",
-        icon:"/../public/assets/portfolio2.jpg",
-
+        title: "Ambitama das",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fuga nisi! Iusto suscipit natus dignissimos magni quidem dolor ducimus cumque soluta itaque maxime eius mollitia nisi ad sint, eligendi quisquam.",
+        icon:"/../public/assets/avatar2.jpg",
     },
     {
         id: 3,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/thearnabsaha/web3.github.io",
-        demo:"https://tasmeal-github-io.vercel.app/",
-        icon:"/../public/assets/portfolio3.jpg",
-
+        title: "Suborno das",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fuga nisi! Iusto suscipit natus dignissimos magni quidem dolor ducimus cumque soluta itaque maxime eius mollitia nisi ad sint, eligendi quisquam.",
+        icon:"/../public/assets/avatar3.jpg",
     },
     {
         id: 4,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/thearnabsaha/web3.github.io",
-        demo:"https://tasmeal-github-io.vercel.app/",
-        icon:"/../public/assets/portfolio4.jpg",
-
-    },
-    {
-        id: 5,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/thearnabsaha/web3.github.io",
-        demo:"https://tasmeal-github-io.vercel.app/",
-        icon:"/../public/assets/portfolio5.png",
-
-    },
-    {
-        id: 6,
-        title: "Crypto Currency Dashboard & Financial Visualization",
-        github: "https://github.com/thearnabsaha/web3.github.io",
-        demo:"https://tasmeal-github-io.vercel.app/",
-        icon:"/../public/assets/portfolio6.jpg",
-
+        title: "Arijit saha",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, fuga nisi! Iusto suscipit natus dignissimos magni quidem dolor ducimus cumque soluta itaque maxime eius mollitia nisi ad sint, eligendi quisquam.",
+        icon:"/../public/assets/avatar4.jpg",
     },
 ];
