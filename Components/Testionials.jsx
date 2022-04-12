@@ -1,24 +1,7 @@
 import Image from 'next/image';
-import PA from '../public/assets/avatar1.jpg'
-import PB from '../public/assets/avatar2.jpg'
-import PC from '../public/assets/avatar3.jpg'
-import PD from '../public/assets/avatar4.jpg'
 import {rec} from '../api/testimonials'
 
-import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-
-// import required modules
-import { Navigation } from "swiper";
-
-
-
-
+import React from "react";
 const Testionials = () => {
     return (
         <>
