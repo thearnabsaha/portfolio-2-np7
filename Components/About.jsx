@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { FiFolder,FiUsers } from "react-icons/fi";
 import { BsFillAwardFill } from "react-icons/bs";
-import DPA from '../public/assets/me-about.jpg'
+import DPA from '../public/assets/me-about.jpg';
 const About = () => {
     return (
         <div>
