@@ -58,7 +58,6 @@ body{
                     background-color: $color-white;
                     color: $color-bg;
                     border: 1px solid $color-white;
-
                 }
             }
             .btn2{
@@ -114,7 +113,6 @@ body{
 #about{
     .container{
         margin: auto;
-        // width: 65vw;
         margin-top: 5rem;
         h5{
             font-size: 1.5rem;
@@ -531,7 +529,6 @@ body{
                 margin-left: 7rem;
                 margin-bottom: 15rem;
                 .form{
-
                     input{
                         width: 35vw;
                         display: block;
@@ -581,3 +578,129 @@ body{
         }
     }
 }
+//? ################################## Responsive #####################################################
+
+@media(max-width:1050px) {
+    #experience{
+        .container{
+            margin: auto;
+            margin-top: 10rem;
+            width: 80%;
+            .bigBox{
+                flex-direction: column;
+                justify-content: center;
+                .box{
+                    width: 100%;
+                    margin-bottom: 3rem;
+                    padding-bottom: 30rem;
+                    .card{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    #services{
+        .container{
+            .bigBox{
+                margin: 0;
+                flex-direction: column;
+                justify-content: center;
+                .card{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    #portfolio{
+        .container{
+            .cards{
+                margin: 3rem;
+                flex-direction: column;
+                .card{
+                    width: 100%;
+                    text-align: center;
+                    h4{
+                        text-align: center;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:850px) {
+    #about{
+        .container{
+            .box{
+                flex-direction: column;
+                .left{
+                    padding-bottom: 5rem;
+                }
+                .right{
+                    .cards{
+                        flex-wrap: wrap;
+                        .card{
+                            margin-bottom: 2rem;
+                        }
+                    }
+                    h6{
+                        width: 90%;
+                        padding-top: 4rem;
+                        padding-bottom: 2rem;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+    #contact{
+        .container{
+            .box{
+                margin: 5rem;
+                flex-direction: column;
+                .left{
+                    margin: 0;
+                }
+                .right{
+                    margin: 0;
+                    margin-top: 3rem;
+                    .form{
+                        input{
+                            width: 100%;
+                        }
+                        textarea{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:650px) {
+    #header{
+        .container{
+            .main{
+                justify-content: center;
+                .socials{
+                    display: none;
+                }
+                .scroll{
+                    display: none;
+                }
+            }
+        }
+    }
+    #testimonials{
+        .container{
+            .cards{
+                margin: 3rem;
+                .card{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
