@@ -19,7 +19,6 @@ const Testionials = () => {
                                     <p>{e.desc}</p>
                                 </div>
                             </>
-                            
                         })
                     }
                     </div>
