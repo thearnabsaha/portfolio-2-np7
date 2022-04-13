@@ -603,7 +603,7 @@ body{
     #services{
         .container{
             .bigBox{
-                margin: 0;
+                margin: 3rem;
                 flex-direction: column;
                 justify-content: center;
                 .card{
@@ -638,8 +638,11 @@ body{
                     padding-bottom: 5rem;
                 }
                 .right{
+                    margin: 0;
+
                     .cards{
                         flex-wrap: wrap;
+                        justify-content: center;
                         .card{
                             margin-bottom: 2rem;
                         }
@@ -648,7 +651,10 @@ body{
                         width: 90%;
                         padding-top: 4rem;
                         padding-bottom: 2rem;
-                        margin: auto;
+                        margin: 0rem 5rem;
+                    }
+                    a{
+                        margin: 0rem 5rem;
                     }
                 }
             }
@@ -702,5 +708,18 @@ body{
             }
         }
     }
+    #navbar{
+        .container{
+            top: 750px;
+            #icon{
+                font-size: 4.5rem;
+                padding: 1rem;
+            }
+        }
+    }
 }
-
+@media(max-width:420px) {
+    html{
+        font-size: 45%;
+    }
+}
