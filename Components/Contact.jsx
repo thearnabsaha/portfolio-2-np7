@@ -13,13 +13,13 @@ const Contact = () => {
                                 <AiOutlineMail className="icon"/>
                                 <h4>Email</h4>
                                 <h3>dummy@one.com</h3>
-                                <a href="#">Send a message</a>
+                                <a href="mailto:man@man.com">Send a message</a>
                             </div>
                             <div className="box1">
                                 <BsWhatsapp className="icon"/>
                                 <h4>WhatsApp</h4>
                                 <h3>+79251805132</h3>
-                                <a href="#">Send a message</a>
+                                <a href="https://api.whatsapp.com/send?phone=+79251805132">Send a message</a>
                             </div>
                         </div>
                         <div className="right">
