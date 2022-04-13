@@ -14,8 +14,8 @@ const Portfolio = () => {
                                     <div className="card">
                                         <Image src={e.icon} width="300" height="300" objectFit='cover' alt='arnabs image' className="img"/>
                                         <h4>{e.title}</h4>
-                                        <a href={e.github} target="_blank" className='btn1'>Github</a>
-                                        <a href={e.demo} target="_blank" className='btn2'>Live Demo</a>
+                                        <a href={e.github} target="_blank" rel="noreferrer" className='btn1'>Github</a>
+                                        <a href={e.demo} target="_blank" rel="noreferrer" className='btn2'>Live Demo</a>
                                     </div>
                                 </div>
                             })

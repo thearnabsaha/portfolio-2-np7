@@ -32,7 +32,7 @@ const About = () => {
                                 </div>
                             </div>
                             <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente vero, aliquam error veritatis ducimus nisi, enim mollitia quaerat aspernatur praesentium nobis ab! Iste, voluptatum? Minus laboriosam possimus dolorem ab necessitatibus.</h6>
-                            <a href="">Let's Talk</a>
+                            <a href="">Lets Talk</a>
                         </div>
                     </div>
                 </div>

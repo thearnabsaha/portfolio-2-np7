@@ -7,12 +7,12 @@ const Header = () => {
         <>
             <header id="header">
                 <div className="container">
-                    <h5>Hello I'm</h5>
+                    <h5>Hello I am</h5>
                     <h1>Arnab Saha</h1>
                     <h6>Fullstack Developer & Blockchain Developer</h6>
                     <div className="cta">
-                        <a href={DP} download target="_blank">Download CV</a>
-                        <a href="#contact" className="btn2">Let's Talk</a>
+                        <a href={DP} download target="_blank" rel="noreferrer">Download CV</a>
+                        <a href="#contact" className="btn2">Lets Talk</a>
                     </div>
                     <div className="main">
                         <div className="socials">

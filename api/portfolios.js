@@ -1,3 +1,4 @@
+import {PA} from '../public/assets/portfolio1.jpg'
 export const send = [
     {
         id: 1,
